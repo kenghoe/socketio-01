@@ -1,0 +1,10 @@
+# exclude everything except directory foo/bar
+#!/foo
+#/foo/*
+#!/foo/bar
+/*
+!.gitignore
+!package.json
+!README.me
+!socketIO.js
+!/socket.io
